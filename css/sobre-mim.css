@@ -1,0 +1,13 @@
+#sobre-mim {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   justify-items: center;
+   background-color: var(--lightbg);
+   gap: 100px;
+   padding: 125px;
+}
+
+.sobre-mim_img {
+   border-radius: 5px;
+}

@@ -1,0 +1,70 @@
+#home {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   justify-items: center;
+   gap: 60px;
+   padding: 53px 120px 0px 120px;
+   height: 100vh;
+}
+
+.home-desc {
+   width: 100%;
+}
+
+.home-desc h2 {
+   font-family: "Consolas", monospace;
+}
+
+.laion {
+   color: var(--blue);
+}
+
+.home_contato-icons {
+   display: flex;
+   flex-wrap: nowrap;
+   margin-top: 25px;
+   gap: 12px;
+}
+
+.home_contato-icons img {
+   transition: transform 0.2s ease;
+}
+
+.home_contato-icons img:hover {
+   transform: scale(1.2);
+}
+
+.down-arrow_container {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   margin-top: 60px;
+   width: fit-content;
+}
+
+.down-arrow_container p {
+   font-family: inherit;
+   font-size: 1.2rem;
+}
+
+.down-arrow {
+   animation: jumpInfinite 2s infinite;
+}
+
+@keyframes jumpInfinite {
+   0% {
+      opacity: 0;
+      transform: translate3d(0, -15px, 0);
+   }
+   30% {
+      opacity: 0;
+   }
+   60% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+      transform: translate3d(0, 10px, 0);
+   }
+}

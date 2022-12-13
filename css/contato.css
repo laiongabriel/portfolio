@@ -1,0 +1,31 @@
+#contato {
+   padding: 150px 125px 135px;
+   text-align: center;
+}
+
+#contato p {
+   font-size: 1.5rem;
+}
+
+.contato-icons {
+   display: flex;
+   flex-wrap: nowrap;
+   margin-top: 30px;
+   justify-content: center;
+   align-items: center;
+   gap: 22px;
+}
+
+.contato-icons img {
+   transition: transform 0.2s ease;
+}
+
+.contato-icons img:hover {
+   transform: scale(1.2);
+}
+
+.email {
+   background: var(--white);
+   color: var(--darkbg);
+   padding: 2px 4px;
+}
