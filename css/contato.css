@@ -28,4 +28,9 @@
    background: var(--white);
    color: var(--darkbg);
    padding: 2px 4px;
+   transition: all 0.3s ease;
+}
+
+.email:hover {
+   background-color: var(--blue);
 }

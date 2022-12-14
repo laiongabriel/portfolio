@@ -12,6 +12,16 @@
    --text: #b1b1d0;
 }
 
+@font-face {
+   font-family: "Euclid Circular A";
+   src: url("../fonts/euclid-circular-a/Euclid-Circular-A-Regular.ttf");
+}
+
+@font-face {
+   font-family: "Consolas";
+   src: url("../fonts/consolas/consola.ttf");
+}
+
 ::-webkit-scrollbar {
    width: 10px;
 }
@@ -27,16 +37,6 @@
 
 ::-webkit-scrollbar-thumb:hover {
    background: #808080;
-}
-
-@font-face {
-   font-family: "Euclid Circular A";
-   src: url("../fonts/euclid-circular-a/Euclid-Circular-A-Regular.ttf");
-}
-
-@font-face {
-   font-family: "Consolas";
-   src: url("../fonts/consolas/consola.ttf");
 }
 
 body {
@@ -108,29 +108,36 @@ footer {
       font-size: 1.0625rem;
    }
    .down-arrow_container {
-      display: none;
+      margin-top: 25px; 
+      gap: 4px;
+   }
+   .down-arrow_container p {
+      font-size: 1.1rem;
    }
    #home {
       padding: 90px 20px 60px;
       grid-template-columns: 1fr;
       height: auto;
+      gap: 45px;
    }
    .home-desc h2 {
       font-size: 1.4rem;
-   }
-   .home_contato-icons {
-      display: none;
    }
    .home-img {
       width: 450px;
    }
    #sobre-mim {
       grid-template-columns: 1fr;
-      padding: 80px 20px 50px;
+      padding: 80px 20px;
       gap: 25px;
    }
    #sobre-mim h1 {
       margin-bottom: 8px;
+   }
+   .sobre-mim_img {
+      width: 450px;
+      height: 450px;
+      object-fit: contain;
    }
    #projetos {
       padding: 80px 20px 50px;

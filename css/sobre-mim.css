@@ -8,6 +8,11 @@
    padding: 125px;
 }
 
-.sobre-mim_img {
-   border-radius: 5px;
+#sobre-mim img {
+   transition: all 0.3s ease;
+   
+}
+
+#sobre-mim img:hover {
+   transform: scale(1.02);
 }

@@ -8,31 +8,24 @@
    height: 100vh;
 }
 
-.home-desc {
-   width: 100%;
+.home-desc h2 {
+   font-family: "Open Sans";
 }
 
-.home-desc h2 {
-   font-family: "Consolas", monospace;
+.home-desc {
+   width: 100%;
 }
 
 .laion {
    color: var(--blue);
 }
 
-.home_contato-icons {
-   display: flex;
-   flex-wrap: nowrap;
-   margin-top: 25px;
-   gap: 12px;
+.home-img {
+   transition: all 0.3s ease;
 }
 
-.home_contato-icons img {
-   transition: transform 0.2s ease;
-}
-
-.home_contato-icons img:hover {
-   transform: scale(1.2);
+.home-img:hover {
+   transform: scale(1.02);
 }
 
 .down-arrow_container {
@@ -44,7 +37,7 @@
 }
 
 .down-arrow_container p {
-   font-family: inherit;
+   font-family: "Euclid Circular A";
    font-size: 1.2rem;
 }
 
