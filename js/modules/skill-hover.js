@@ -1,9 +1,10 @@
 export default function initSkillHover() {
    const desc = document.querySelector(".skill-info");
+   const initialText = desc.innerText;
    const skillList = document.querySelectorAll(".skill");
 
-   if (window.matchMedia("(max-width: 960px)").matches) {
-      desc.innerText = "Toque em um dos cards para ler :)";
+   if (window.innerWidth <= 960) {
+      desc.innerText = desc.dataset.mobile;
    }
 
    skillList.forEach((skill) => {
@@ -11,9 +12,9 @@ export default function initSkillHover() {
          desc.innerText = skill.dataset.description;
       });
       skill.addEventListener("mouseout", () => {
-         desc.innerText = "Coloque o cursor sobre um dos cards para ler :)";
-         if (window.matchMedia("(max-width: 960px)").matches) {
-            desc.innerText = "Toque em um dos cards para ler :)";
+         desc.innerText = initialText;
+         if (window.innerWidth <= 960) {
+            desc.innerText = desc.dataset.mobile;
          }
       });
    });
