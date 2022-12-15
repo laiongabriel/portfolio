@@ -57,7 +57,7 @@
 .tech {
    color: var(--darkbg);
    padding: 5px 10px;
-   background: linear-gradient(var(--white), #9898be);
+   background: linear-gradient(var(--headers), #9898be);
    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
    border-radius: 4px;
 }

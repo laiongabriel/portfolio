@@ -5,7 +5,7 @@
 }
 
 :root {
-   --white: #cdcdff;
+   --headers: #cdcdff;
    --darkbg: #161a27;
    --lightbg: #1b1f30;
    --blue: #90a0d9;
@@ -31,7 +31,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-   background: var(--white);
+   background: var(--headers);
    border-radius: 4px;
 }
 
@@ -53,7 +53,7 @@ img {
 
 h1,
 h2 {
-   color: var(--white);
+   color: var(--headers);
 }
 
 h1 {
@@ -109,7 +109,6 @@ footer {
    }
    .down-arrow_container {
       margin-top: 25px; 
-      gap: 4px;
    }
    .down-arrow_container p {
       font-size: 1.1rem;

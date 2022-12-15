@@ -31,7 +31,7 @@
 .down-arrow_container {
    display: flex;
    align-items: center;
-   gap: 8px;
+   gap: 4px;
    margin-top: 60px;
    width: fit-content;
 }
@@ -39,6 +39,12 @@
 .down-arrow_container p {
    font-family: "Euclid Circular A";
    font-size: 1.2rem;
+   color: var(--headers);
+   transition: all 0.3s ease;
+}
+
+.down-arrow_container p:hover {
+   color: var(--blue);
 }
 
 .down-arrow {

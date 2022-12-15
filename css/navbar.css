@@ -23,7 +23,7 @@ header {
 }
 
 .logo:hover {
-   transform: scaleX(1.13);
+   transform: scaleX(1.08);
 }
 
 .logo a {
@@ -31,7 +31,7 @@ header {
    font-size: 1.5rem;
    font-weight: bold;
    letter-spacing: 0.02em;
-   color: var(--white);
+   color: var(--headers);
 }
 
 .menu {
@@ -91,7 +91,7 @@ header {
       gap: 12px;
       text-align: center;
       background-color: var(--darkbg);
-      top: 65px;
+      top: 62px;
       right: 0px;
       padding-bottom: 70px;
 
@@ -109,7 +109,7 @@ header {
    nav.ativo .menu {
       visibility: initial;
       opacity: 1;
-      height: calc(100vh - 65px);
+      height: calc(100vh - 62px);
    }
    #btn-mobile {
       display: block;
@@ -124,7 +124,7 @@ header {
       display: block;
       width: 27px;
       height: 3px;
-      background: var(--white);
+      background: var(--headers);
       transition: 0.3s;
       border-radius: 4px;
    }

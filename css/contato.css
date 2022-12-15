@@ -25,7 +25,7 @@
 }
 
 .email {
-   background: var(--white);
+   background: var(--headers);
    color: var(--darkbg);
    padding: 2px 4px;
    transition: all 0.3s ease;
