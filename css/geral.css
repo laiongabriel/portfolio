@@ -15,11 +15,13 @@
 @font-face {
    font-family: "Euclid Circular A";
    src: url("../fonts/euclid-circular-a/Euclid-Circular-A-Regular.ttf");
+   font-display: swap;
 }
 
 @font-face {
    font-family: "Consolas";
    src: url("../fonts/consolas/consola.ttf");
+   font-display: swap;
 }
 
 ::-webkit-scrollbar {
@@ -108,7 +110,7 @@ footer {
       font-size: 1.0625rem;
    }
    .down-arrow_container {
-      margin-top: 25px; 
+      margin: 20px auto 0px;
    }
    .down-arrow_container p {
       font-size: 1.1rem;
@@ -119,11 +121,15 @@ footer {
       height: auto;
       gap: 45px;
    }
+   .home-desc {
+      text-align: center;
+   }
    .home-desc h2 {
       font-size: 1.4rem;
+      text-align: center;
    }
    .home-img {
-      width: 450px;
+      height: auto;
    }
    #sobre-mim {
       grid-template-columns: 1fr;
