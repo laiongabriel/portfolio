@@ -10,6 +10,7 @@
 
 .home-desc h2 {
    font-family: "Open Sans";
+   font-weight: 600;
 }
 
 .home-desc {
@@ -38,7 +39,6 @@
 }
 
 .down-arrow_container p {
-   font-family: "Euclid Circular A";
    font-size: 1.2rem;
    color: var(--headers);
    transition: all 0.3s ease;
