@@ -85,11 +85,11 @@ a {
    text-decoration: none;
 }
 
-footer {
+.footer p {
+   border-top: 1px solid rgba(255, 255, 255, 0.102);
    text-align: center;
    padding: 15px;
-   margin: 0px 110px;
-   border-top: 1px solid rgba(255, 255, 255, 0.102);
+   margin: 0px 125px;
 }
 
 /* Animação ao Scroll */
@@ -136,12 +136,12 @@ footer {
    .home-img {
       height: auto;
    }
-   #sobre-mim {
+   .sobre-mim_container {
       grid-template-columns: 1fr;
       padding: 80px 20px;
       gap: 25px;
    }
-   #sobre-mim h1 {
+   .sobre-mim_container h1 {
       margin-bottom: 8px;
    }
    .sobre-mim_img {
@@ -158,7 +158,7 @@ footer {
    .projeto-desc {
       padding-right: 0;
    }
-   #skills {
+   .skills-container {
       padding: 80px 20px 75px;
       text-align: center;
       gap: 30px;
@@ -187,11 +187,9 @@ footer {
    .contato-icons img {
       width: 55px;
    }
-   footer {
-      margin: 0px 30px;
-   }
-   footer p {
-      padding: 5px 0px;
+   .footer p {
+      margin: 0px 20px;
+      padding: 15px;
       font-size: 1rem;
    }
 }

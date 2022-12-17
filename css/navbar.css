@@ -79,7 +79,7 @@ header {
 }
 
 @media (max-width: 960px) {
-   header {
+   .site-header {
       padding: 18px;
    }
    .logo a {
