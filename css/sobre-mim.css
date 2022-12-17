@@ -1,9 +1,12 @@
 #sobre-mim {
+   background-color: var(--lightbg);
+}
+
+.sobre-mim_container {
    display: grid;
    grid-template-columns: 1fr 1fr;
    align-items: center;
    justify-items: center;
-   background-color: var(--lightbg);
    gap: 100px;
    padding: 125px;
 }

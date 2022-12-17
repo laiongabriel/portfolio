@@ -11,9 +11,10 @@
    <meta name="copyright" content="© 2022 Laion Gabriel">
    <meta http-equiv="content-language" content="pt-br">
    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-   
+
    <!-- <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus labore ex obcaecati pariatur."> -->
-   <meta name="keywords" content="web developer, desenvolvedor frontend, frontend, laion gabriel, programador, laiongabriel, front-end, ui, laion, freelancer, website, portfólio">
+   <meta name="keywords"
+      content="web developer, desenvolvedor frontend, frontend, laion gabriel, programador, laiongabriel, front-end, ui, laion, freelancer, website, portfólio">
    <link rel="shortcut icon" href="./img/icons/fav-icon.svg" type="image/x-icon">
 
    <!-- Readex Pro -->
@@ -29,24 +30,26 @@
 
 <body>
    <header class="js-scroll">
-      <div class="logo">
-         <a href="#home">laionGabriel<span class="ltgt">();</span></a>
-      </div>
-      <nav>
-         <ul class="menu">
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contato">Contato</a></li>
-         </ul>
-         <button type="button" title="menu" id="btn-mobile">
-            <span id="burger"></span>
-         </button>
-      </nav>
+      <section class="site-header layout">
+         <div class="logo">
+            <a href="#home">laionGabriel<span class="ltgt">();</span></a>
+         </div>
+         <nav>
+            <ul class="menu">
+               <li><a href="#sobre-mim">Sobre mim</a></li>
+               <li><a href="#projetos">Projetos</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button type="button" title="menu" id="btn-mobile">
+               <span id="burger"></span>
+            </button>
+         </nav>
+      </section>
    </header>
 
    <main>
-      <section id="home" class="js-scroll">
+      <section id="home" class="js-scroll layout">
          <div class="home-desc">
             <h1>Olá, eu sou o <span class="laion">Laion</span>.</h1>
             <h2>Desenvolvedor Front-End.</h2>
@@ -59,17 +62,21 @@
       </section>
 
       <section id="sobre-mim" class="js-scroll">
-         <div class="sobre-mim_desc">
-            <h1>Sobre mim</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit animi, incidunt, minus molestias adipisci
-               perferendis cupiditate iusto rem eaque sint temporibus optio mollitia dolor? Animi exercitationem aliquid
-               praesentium magnam sed? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi rerum a ipsam
-               impedit quo quam ullam repudiandae voluptas? Eius, provident quisquam? Provident, excepturi.</p>
+         <div class="sobre-mim_container layout">
+            <div class="sobre-mim_desc">
+               <h1>Sobre mim</h1>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit animi, incidunt, minus molestias
+                  adipisci
+                  perferendis cupiditate iusto rem eaque sint temporibus optio mollitia dolor? Animi exercitationem
+                  aliquid
+                  praesentium magnam sed? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi rerum a ipsam
+                  impedit quo quam ullam repudiandae voluptas? Eius, provident quisquam? Provident, excepturi.</p>
+            </div>
+            <img src="https://source.unsplash.com/random" alt="selfie" width="450" height="450">
          </div>
-         <img src="https://source.unsplash.com/random" alt="selfie" width="450" height="450">
       </section>
 
-      <section id="projetos" class="js-scroll">
+      <section id="projetos" class="js-scroll layout">
          <h1>Projetos</h1>
          <div class="projetos-container">
             <a href="https://github.com/laiongabriel/portfolio" class="projeto" target="_blank">
@@ -118,46 +125,48 @@
       </section>
 
       <section id="skills" class="js-scroll">
-         <div class="skills-desc">
-            <h1>Skills</h1>
-            <p class="skill-info" data-mobile="Toque em um dos cards para ler :)">Coloque o cursor sobre um dos cards para ler :)</p>
-         </div>
-         <div class="skill-cards">
-            <div class="skill"
-               data-description="HTML (HyperText Markup Language) é uma linguagem de marcação utilizada na construção de páginas na Web.">
-               <img src="./img/icons/html.svg" alt="ícone html" width="100" height="100">
-               <p>HTML</p>
+         <div class="skills-container layout">
+            <div class="skills-desc">
+               <h1>Skills</h1>
+               <p class="skill-info" data-mobile="Toque em um dos cards para ler :)">Coloque o cursor sobre um dos cards
+                  para ler :)</p>
             </div>
-            <div class="skill"
-               data-description="Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.) a uma página na Web.">
-               <img src="./img/icons/css.svg" alt="ícone css" width="100" height="100">
-               <p>CSS</p>
+            <div class="skill-cards">
+               <div class="skill"
+                  data-description="HTML (HyperText Markup Language) é uma linguagem de marcação utilizada na construção de páginas na Web.">
+                  <img src="./img/icons/html.svg" alt="ícone html" width="100" height="100">
+                  <p>HTML</p>
+               </div>
+               <div class="skill"
+                  data-description="Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.) a uma página na Web.">
+                  <img src="./img/icons/css.svg" alt="ícone css" width="100" height="100">
+                  <p>CSS</p>
+               </div>
+               <div class="skill"
+                  data-description="JavaScript é a linguagem de programação compilada interpretada mais popular do mundo. Junto com HTML e CSS, é uma das três principais tecnologias da Web.">
+                  <img src="./img/icons/js.svg" alt="ícone javascript" width="100" height="100">
+                  <p>JavaScript</p>
+               </div>
+               <div class="skill"
+                  data-description="TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, oferecendo melhores ferramentas em qualquer escala.">
+                  <img src="./img/icons/typescript.svg" alt="ícone typescript" width="100" height="100">
+                  <p>TypeScript</p>
+               </div>
+               <div class="skill"
+                  data-description="React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.">
+                  <img src="./img/icons/react.svg" alt="ícone react" width="100" height="100">
+                  <p>React</p>
+               </div>
+               <div class="skill"
+                  data-description="WordPress é um Content Management System (Sistema de Gerenciamento de Conteúdo) baseado em PHP e MySql usado para criar sites dinâmicos.">
+                  <img src="./img/icons/wordpress.svg" alt="ícone wordpress" width="100" height="100">
+                  <p>WordPress</p>
+               </div>
             </div>
-            <div class="skill"
-               data-description="JavaScript é a linguagem de programação compilada interpretada mais popular do mundo. Junto com HTML e CSS, é uma das três principais tecnologias da Web.">
-               <img src="./img/icons/js.svg" alt="ícone javascript" width="100" height="100">
-               <p>JavaScript</p>
-            </div>
-            <div class="skill"
-               data-description="TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, oferecendo melhores ferramentas em qualquer escala.">
-               <img src="./img/icons/typescript.svg" alt="ícone typescript" width="100" height="100">
-               <p>TypeScript</p>
-            </div>
-            <div class="skill"
-               data-description="React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.">
-               <img src="./img/icons/react.svg" alt="ícone react" width="100" height="100">
-               <p>React</p>
-            </div>
-            <div class="skill"
-               data-description="WordPress é um Content Management System (Sistema de Gerenciamento de Conteúdo) baseado em PHP e MySql usado para criar sites dinâmicos.">
-               <img src="./img/icons/wordpress.svg" alt="ícone wordpress" width="100" height="100">
-               <p>WordPress</p>
-            </div>
-
          </div>
       </section>
 
-      <section id="contato" class="js-scroll">
+      <section id="contato" class="js-scroll layout">
          <p>Envie-me um email em
             <a href="mailto:laiong.dev@gmail.com" target="_blank" class="email">laiong.dev@gmail.com</a> ou
          </p>
@@ -177,7 +186,7 @@
          </div>
       </section>
 
-      <footer>
+      <footer class="layout">
          <p>&#169; 2022 Laion Gabriel</p>
       </footer>
    </main>

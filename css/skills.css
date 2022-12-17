@@ -1,5 +1,8 @@
 #skills {
    background-color: var(--lightbg);
+}
+
+.skills-container {
    display: grid;
    justify-items: center;
    text-align: center;
