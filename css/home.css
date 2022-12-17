@@ -21,14 +21,6 @@
    color: var(--blue);
 }
 
-.home-img {
-   transition: all 0.3s ease;
-}
-
-.home-img:hover {
-   transform: scale(1.02);
-}
-
 .down-arrow_container {
    display: flex;
    align-items: center;
