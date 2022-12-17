@@ -1,19 +1,18 @@
 export default function initScrollAnimation() {
    const sections = document.querySelectorAll(".js-scroll");
+   const halfWindowHeight = window.innerHeight * 0.6;
 
    if (sections.length) {
-      const halfWindow = window.innerHeight * 0.6;
-
-      function initScrollAnimation() {
+      function animateSections() {
          sections.forEach((section) => {
             const sectionTop = section.getBoundingClientRect().top;
-            const isSectionVisible = sectionTop - halfWindow < 0;
+            const isSectionVisible = sectionTop - halfWindowHeight < 0;
             if (isSectionVisible) section.classList.add("ativo");
             // else if (section.classList.contains("ativo"))
             //    section.classList.remove("ativo");
          });
+         requestAnimationFrame(animateSections);
       }
-      initScrollAnimation();
-      window.addEventListener("scroll", initScrollAnimation);
+      animateSections();
    }
 }
