@@ -2,7 +2,7 @@
 
 Portfólio pessoal desenvolvido com HTML, CSS e JavaScript vanilla. O objetivo do site é apresentar minhas habilidades e projetos de forma clara e intuitiva.
 
-Abaixo, você pode ver uma captura da tela da tela inicial:
+Abaixo, você pode ver uma captura da tela inicial:
 
 ![Screenshot](img/screenshot-png.png)
 
