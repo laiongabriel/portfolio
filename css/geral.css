@@ -167,12 +167,8 @@ a {
       min-height: 202px;
       max-width: 100%;
    }
-   .skill-cards img {
-      width: 80px;
-   }
    .skill {
       padding: 4px 18px;
-      max-width: 120px;
    }
    #contato {
       padding: 90px 20px;
