@@ -8,8 +8,15 @@ export default function initSmoothScroll() {
 
       section.scrollIntoView({
          behavior: "smooth",
-         block: "start",
+         block: "center",
       });
+
+      if (window.innerWidth < 960) {
+         section.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+         });
+      }
    }
 
    linksInternos.forEach((link) => {
