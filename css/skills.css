@@ -19,8 +19,7 @@
 
 .skill {
    background-color: var(--darkbg);
-   border: 2px solid transparent;
-   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+   border: 2px solid rgba(45, 53, 82, 0.5);
    transition: all 0.6s;
    padding: 4px 18px;
    border-radius: 4px;

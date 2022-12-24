@@ -68,9 +68,9 @@ h2 {
 }
 
 p {
-   font-family: "Lato", sans-serif;
+   font-family: "Mulish", sans-serif;
    color: var(--text);
-   font-size: 1.2rem;
+   font-size: 1.15rem;
    line-height: 155%;
    letter-spacing: 0.03rem;   
 }
@@ -175,7 +175,7 @@ a {
       gap: 15px;
    }
    .contato-icons img {
-      width: 55px;
+      width: 52px;
    }
    .footer p {
       margin: 0px 20px;
