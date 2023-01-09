@@ -129,6 +129,7 @@ a {
    }
    .home-img {
       height: auto;
+      width: 360px;
    }
    .sobre-mim_container {
       grid-template-columns: 1fr;
