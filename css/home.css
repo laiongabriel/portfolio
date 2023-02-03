@@ -24,7 +24,6 @@
 .down-arrow_container {
    display: flex;
    align-items: center;
-   justify-self: center;
    gap: 4px;
    margin-top: 60px;
    width: fit-content;

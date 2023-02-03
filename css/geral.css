@@ -42,7 +42,7 @@
 
 body {
    -webkit-font-smoothing: antialiased;
-   font-family: "Readex Pro", sans-serif;
+   font-family: "Lexend", sans-serif;
    background-color: var(--darkbg);
    position: relative;
 }
@@ -68,11 +68,10 @@ h2 {
 }
 
 p {
-   font-family: "Readex Pro", sans-serif;
    color: var(--text);
    font-size: 1.15rem;
    line-height: 155%;
-   letter-spacing: 0.03rem;   
+   letter-spacing: 0.03rem;
 }
 
 a {
