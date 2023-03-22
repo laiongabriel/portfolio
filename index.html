@@ -12,25 +12,16 @@
    <meta http-equiv="content-language" content="pt-br">
    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-   <!-- <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus labore ex obcaecati pariatur."> -->
+   <meta name="description"
+      content="Portfólio minimalista e responsivo onde apresento meus trabalhos e projetos anteriores, demonstrando minha habilidade em criar soluções funcionais e práticas. Sinta-se à vontade para entrar em contato comigo!">
    <meta name="keywords"
       content="web developer, desenvolvedor frontend, frontend, laion gabriel, programador, laiongabriel, front-end, ui, laion, freelancer, website, portfólio">
    <link rel="shortcut icon" href="./img/icons/fav-icon.svg" type="image/x-icon">
 
-   <!-- Readex Pro -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet">
-
-   <!-- Mulish -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
-
-   <!-- Lexend -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Lexend:wght@400;700&display=swap"
+      rel="stylesheet">
 </head>
 
 <body>
@@ -43,7 +34,7 @@
             <ul class="menu">
                <li><a href="#sobre-mim">Sobre mim</a></li>
                <li><a href="#projetos">Projetos</a></li>
-               <li><a href="#skills">Skills</a></li>
+               <li><a href="#skills">Habilidades</a></li>
                <li><a href="#contato">Contato</a></li>
             </ul>
             <button type="button" title="menu" id="btn-mobile">
@@ -63,56 +54,59 @@
                <img class="down-arrow" src="./img/icons/down-arrow.svg" alt="seta para baixo" width="32" height="32">
             </a>
          </div>
-         <img class="home-img" src="./img/home-img.svg" alt="ilustração de um programador" width="750" height="573">
+         <img class="home-img" src="./img/home-img.svg" alt="ilustração de um programador" width="528" height="403.39">
       </section>
 
       <section id="sobre-mim" class="js-scroll">
          <div class="sobre-mim_container layout">
-            <div>
+            <div class="sobre-mim_desc">
                <h1>Sobre mim</h1>
-               <p class="sobre-mim_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eaque consequatur
-                  cupiditate esse quo commodi illum ipsam laboriosam, voluptatum repudiandae rerum neque aliquid
-                  incidunt ipsum deserunt sapiente molestiae facere odio. Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Quae quos voluptate sequi illum nostrum ipsa sunt harum labore perferendis nobis
-                  corporis voluptas explicabo magni nesciunt, quasi architecto cupiditate dolore quisquam.</p>
+               <p>Olá, meu nome é Laion. Sou graduando em Sistemas de Informação na Universidade
+                  Federal Rural da Amazônia. Atualmente, estou focando meu aprendizado no desenvolvimento front-end, mas
+                  também tenho conhecimentos e interesse no back-end. Tenho sólidos conhecimentos em HTML, CSS,
+                  JavaScript e TypeScript e estou me aprofundando na biblioteca React. Estou sempre procurando
+                  aperfeiçoar minhas habilidades e conhecimentos, seja através de cursos online ou projetos práticos,
+                  além de explorar novas ferramentas e tecnologias!</p>
             </div>
-            <img src="./img/cat.png" title="foto temporária" alt="selfie" width="450" height="450">
+            <img src="./img/laion-selfie.png" alt="autorretrato" width="420" height="420">
          </div>
       </section>
 
       <section id="projetos" class="js-scroll layout">
-         <h1>Projetos</h1>
+         <div class="projetos-header">
+            <h1>Projetos</h1>
+            <p>Alguns projetos pessoais que desenvolvi</p>
+         </div>
          <div class="projetos-container">
             <a href="https://github.com/laiongabriel/portfolio" class="projeto" target="_blank">
                <div class="projeto-titulo">
                   <h2>Este portfólio!</h2>
                   <img src="./img/icons/link.svg" alt="ícone link" width="32" height="32">
                </div>
-               <p class="projeto-desc">Portfólio pessoal totalmente responsivo desenvolvido apenas com HTML, CSS e
-                  JavaScript puro.</p>
+               <p class="projeto-desc">Portfólio pessoal totalmente responsivo com um design minimalista. Ainda em
+                  processo de desenvolvimento.
+               </p>
                <div class="tech-container">
                   <span class="tech">HTML</span>
                   <span class="tech">CSS</span>
                   <span class="tech">JavaScript</span>
+               </div>
+            </a>
+            <a href="https://github.com/laiongabriel/ai-chatbot" class="projeto" target="_blank">
+               <div class="projeto-titulo">
+                  <h2>AI Chatbot</h2>
+                  <img src="./img/icons/link.svg" alt="ícone link" width="32" height="32">
+               </div>
+               <p class="projeto-desc">Chatbot que usa o modelo de linguagem gpt-3.5-turbo da OpenAI para gerar
+                  respostas com base no input do usuário.</p>
+               <div class="tech-container">
+                  <span class="tech">JavaScript</span>
+                  <span class="tech">Express.js</span>
                </div>
             </a>
             <a href="javascript:void(0)" class="projeto">
                <div class="projeto-titulo">
                   <h2>Em construção</h2>
-                  <img src="./img/icons/link.svg" alt="ícone link" width="32" height="32">
-               </div>
-               <p class="projeto-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis
-                  distinctio qui asperiores quas ex repudiandae, minima explicabo totam id quo aspernatur, earum non ea.
-                  Dolore magnam natus sed quia!</p>
-               <div class="tech-container">
-                  <span class="tech">HTML</span>
-                  <span class="tech">CSS</span>
-                  <span class="tech">JavaScript</span>
-               </div>
-            </a>
-            <a href="javascript:void(0)" class="projeto">
-               <div class="projeto-titulo">
-                  <h2>Lorem ipsum</h2>
                   <img src="./img/icons/link.svg" alt="ícone link" width="32" height="32">
                </div>
                <p class="projeto-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis
@@ -130,7 +124,7 @@
       <section id="skills" class="js-scroll">
          <div class="skills-container layout">
             <div class="skills-desc">
-               <h1>Skills</h1>
+               <h1>Habilidades</h1>
                <p class="skill-info" data-mobile="Toque em um dos cards para ler :)">Coloque o cursor sobre um dos cards
                   para ler :)</p>
             </div>
@@ -146,7 +140,7 @@
                   <p>CSS</p>
                </div>
                <div class="skill"
-                  data-description="JavaScript é a linguagem de programação compilada interpretada mais popular do mundo. Junto com HTML e CSS, é uma das três principais tecnologias da Web.">
+                  data-description="JavaScript é uma linguagem de programação dinâmica e interpretada, utilizada principalmente em páginas web para criar interatividade.">
                   <img src="./img/icons/js.svg" alt="ícone javascript" width="100" height="100">
                   <p>JavaScript</p>
                </div>
@@ -169,10 +163,12 @@
          </div>
       </section>
 
-      <section id="contato" class="layout">
+      <section id="contato" class="layout js-scroll">
+         <h1>Contato</h1>
          <p>Envie-me um email em
-            <a href="mailto:laiong.dev@gmail.com" target="_blank" class="email">laiong.dev@gmail.com</a> ou
+            <a href="mailto:laiong.dev@gmail.com" target="_blank" class="email">laiong.dev@gmail.com</a>
          </p>
+         <p>ou entre em contato pelas redes:</p>
          <div class="contato-icons">
             <a href="https://www.linkedin.com/in/laiongabriel/" target="_blank">
                <img src="./img/icons/linkedin.svg" alt="ícone linkedin" width="60" height="60">
@@ -191,7 +187,7 @@
 
       <footer class="layout">
          <class class="footer">
-            <p>&#169; 2022 Laion Gabriel</p>
+            <p>&#169; 2023 Laion Gabriel</p>
          </class>
       </footer>
    </main>

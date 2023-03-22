@@ -36,7 +36,7 @@
 }
 
 .layout {
-   max-width: 1600px;
+   max-width: 1366px;
    margin: 0 auto;
 }
 
@@ -49,6 +49,7 @@ body {
 
 img {
    max-width: 100%;
+   height: auto;
    display: block;
 }
 
@@ -59,12 +60,12 @@ h2 {
 
 h1 {
    font-size: 2.7rem;
-   margin-bottom: 8px;
+   margin-bottom: 10px;
    line-height: 120%;
 }
 
 h2 {
-   font-size: 1.7rem;
+   font-size: 1.8rem;
 }
 
 p {
@@ -82,7 +83,7 @@ a {
    border-top: 1px solid rgba(255, 255, 255, 0.102);
    text-align: center;
    padding: 15px;
-   margin: 0px 125px;
+   margin: 0px 100px;
 }
 
 /* Animação ao Scroll */
@@ -97,7 +98,33 @@ a {
    transform: translateX(0);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
+   .sobre-mim_container {
+      flex-direction: column;
+      gap: 25px;
+   }
+}
+
+@media (max-width: 980px) {
+   #home {
+      padding: 95px 15px 60px;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      gap: 45px;
+   }
+   .home-desc {
+      text-align: center;
+   }
+   .home-img {
+      height: auto;
+      width: 400px;
+   }
+   .down-arrow_container {
+      margin: 20px auto 0px;
+   }
+}
+
+@media (max-width: 800px) {
    h1 {
       font-size: 2rem;
    }
@@ -107,41 +134,20 @@ a {
    p {
       font-size: 1.0625rem;
    }
-   .down-arrow_container {
-      margin: 20px auto 0px;
+   #home {
+      padding: 90px 15px 60px;
+      height: auto;
+   }
+   .home-img {
+      width: 360px;
    }
    .down-arrow_container p {
       font-size: 1.1rem;
    }
-   #home {
-      padding: 90px 20px 60px;
-      grid-template-columns: 1fr;
-      height: auto;
-      gap: 45px;
-   }
-   .home-desc {
-      text-align: center;
-   }
-   .home-desc h2 {
-      font-size: 1.4rem;
-      text-align: center;
-   }
-   .home-img {
-      height: auto;
-      width: 360px;
-   }
    .sobre-mim_container {
-      grid-template-columns: 1fr;
-      padding: 80px 20px;
+      flex-direction: column;
+      padding: 90px 20px;
       gap: 25px;
-   }
-   .sobre-mim_container h1 {
-      margin-bottom: 8px;
-   }
-   .sobre-mim_img {
-      width: 450px;
-      height: 450px;
-      object-fit: contain;
    }
    #projetos {
       padding: 80px 20px 50px;
@@ -155,7 +161,7 @@ a {
    .skills-container {
       padding: 80px 20px 75px;
       text-align: center;
-      gap: 30px;
+      gap: 15px;
    }
    .skills-desc {
       min-height: 202px;
@@ -169,13 +175,13 @@ a {
    }
    #contato p {
       line-height: 180%;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
    }
    .contato-icons {
       gap: 15px;
    }
    .contato-icons img {
-      width: 52px;
+      width: 50px;
    }
    .footer p {
       margin: 0px 20px;

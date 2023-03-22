@@ -3,10 +3,17 @@
 }
 
 .sobre-mim_container {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
+   display: flex;
    align-items: center;
-   justify-items: center;
-   gap: 100px;
-   padding: 125px;
+   justify-content: space-between;
+   gap: 140px;
+   padding: 135px 100px;
+}
+
+.sobre-mim_container img {
+   border-radius: 4px;
+}
+
+.sobre-mim_desc {
+   line-height: 160%;
 }

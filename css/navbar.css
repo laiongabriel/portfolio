@@ -13,20 +13,12 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 20px 125px;
+   padding: 20px 100px;
    flex-wrap: wrap;
 }
 
 .ltgt {
    color: var(--blue);
-}
-
-.logo {
-   transition: transform 0.2s ease;
-}
-
-.logo:hover {
-   transform: scaleX(1.08);
 }
 
 .logo a {
@@ -35,6 +27,11 @@ header {
    font-weight: bold;
    letter-spacing: 0.02em;
    color: var(--headers);
+   transition: 0.3s;
+}
+
+.logo a:hover {
+   color: #ffffff;
 }
 
 .menu {
@@ -78,7 +75,7 @@ header {
    display: none;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1050px) {
    .site-header {
       padding: 18px;
    }

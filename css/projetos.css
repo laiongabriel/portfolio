@@ -1,10 +1,14 @@
 #projetos {
-   padding: 120px 125px 175px;
+   padding: 130px 100px 175px;
 }
 
-#projetos h1 {
+.projetos-header {
    text-align: center;
-   margin-bottom: 30px;
+   margin-bottom: 50px;
+}
+
+.projetos-header h1 {
+   margin-bottom: 8px;
 }
 
 .projetos-container {

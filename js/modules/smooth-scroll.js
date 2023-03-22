@@ -11,7 +11,7 @@ export default function initSmoothScroll() {
          block: "center",
       });
 
-      if (window.innerWidth < 960) {
+      if (window.innerWidth < 800) {
          section.scrollIntoView({
             behavior: "smooth",
             block: "start",

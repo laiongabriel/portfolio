@@ -3,7 +3,7 @@ export default function initSkillHover() {
    const initialText = desc.innerText;
    const skillList = document.querySelectorAll(".skill");
 
-   if (window.innerWidth <= 960) {
+   if (window.innerWidth <= 800) {
       desc.innerText = desc.dataset.mobile;
    }
 
