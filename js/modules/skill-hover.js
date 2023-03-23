@@ -3,9 +3,7 @@ export default function initSkillHover() {
    const initialText = desc.innerText;
    const skillList = document.querySelectorAll(".skill");
 
-   if (window.innerWidth <= 800) {
-      desc.innerText = desc.dataset.mobile;
-   }
+   if (window.innerWidth <= 800) desc.innerText = desc.dataset.mobile;
 
    skillList.forEach((skill) => {
       skill.addEventListener("mouseover", () => {
@@ -13,9 +11,7 @@ export default function initSkillHover() {
       });
       skill.addEventListener("mouseout", () => {
          desc.innerText = initialText;
-         if (window.innerWidth <= 960) {
-            desc.innerText = desc.dataset.mobile;
-         }
+         if (window.innerWidth <= 960) desc.innerText = desc.dataset.mobile;
       });
    });
 }

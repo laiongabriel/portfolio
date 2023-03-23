@@ -8,8 +8,6 @@ export default function initMobileMenu() {
    });
 
    linksInternos.forEach((link) => {
-      link.addEventListener("click", () => {
-         nav.classList.remove("ativo");
-      });
+      link.addEventListener("click", () => nav.classList.remove("ativo"));
    });
 }
