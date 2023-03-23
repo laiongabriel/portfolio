@@ -21,6 +21,5 @@ export default function initScrollAnimation() {
       distance.forEach((item) => {
          if (window.scrollY > item.offset) item.element.classList.add("ativo");
       });
-      requestAnimationFrame(animateSections);
    }
 }
