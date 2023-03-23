@@ -82,7 +82,7 @@ a {
    text-decoration: none;
 }
 
-.footer p {
+footer p {
    border-top: 1px solid #33374b;
    text-align: center;
    padding: 15px;
@@ -104,7 +104,7 @@ a {
 @media (max-width: 1200px) {
    .sobre-mim_container {
       flex-direction: column;
-      gap: 25px;
+      gap: 40px;
    }
 }
 
@@ -147,7 +147,6 @@ a {
    .sobre-mim_container {
       flex-direction: column;
       padding: 90px 20px;
-      gap: 40px;
    }
    #projetos {
       padding: 80px 20px 50px;
@@ -186,7 +185,7 @@ a {
    .contato-icons img {
       width: 45px;
    }
-   .footer p {
+   footer p {
       margin: 0px 20px;
       padding: 15px;
       font-size: 1rem;

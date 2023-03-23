@@ -2,7 +2,6 @@
    display: grid;
    grid-template-columns: 1fr 1fr;
    align-items: center;
-   justify-content: space-between;
    gap: 60px;
    padding: 53px 100px 0px;
    height: 100vh;
