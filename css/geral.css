@@ -45,6 +45,7 @@ body {
    font-family: "Cabinet Grotesk", "Lexend", sans-serif;
    background-color: var(--darkbg);
    position: relative;
+   overflow: hidden;
 }
 
 img {
