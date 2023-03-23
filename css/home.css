@@ -11,6 +11,7 @@
 .home-desc h2 {
    font-family: "Mulish";
    font-weight: 600;
+   color: var(--text);
 }
 
 .laion {
@@ -26,8 +27,10 @@
 }
 
 .down-arrow_container p {
+   font-family: "Mulish", sans-serif;
+   font-weight: 600;
    font-size: 1.2rem;
-   color: var(--headers);
+   color: var(--text);
    transition: all 0.3s ease;
 }
 

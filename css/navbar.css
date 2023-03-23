@@ -30,10 +30,6 @@ header {
    transition: 0.3s;
 }
 
-.logo a:hover {
-   color: #ffffff;
-}
-
 .menu {
    display: flex;
    align-items: center;
@@ -44,11 +40,11 @@ header {
 
 .menu a {
    display: inline-block;
-   color: var(--text);
+   color: var(--headers);
    transition: 0.3s;
    position: relative;
    letter-spacing: 0.04rem;
-   font-size: 1.2rem;
+   font-size: 1.25rem;
 }
 
 .menu a:hover {

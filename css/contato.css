@@ -26,16 +26,21 @@
 }
 
 .contato-icons img:hover {
-   transform: scale(1.18);
+   transform: scale(1.15);
 }
 
 .email {
-   background: var(--headers);
-   color: var(--darkbg);
+   color: var(--headers);
    padding: 2px 4px;
    transition: all 0.3s ease;
+   border-bottom: 1px solid transparent;
+}
+
+.email::before {
+   content: "↗";
+   margin-right: 4px;
 }
 
 .email:hover {
-   background-color: var(--blue);
+   border-bottom: 1px solid var(--blue);
 }

@@ -5,11 +5,11 @@
 }
 
 :root {
-   --headers: #cdcdff;
+   --headers: #d3d3ff;
    --darkbg: #161a27;
    --lightbg: #1b1f30;
    --blue: #90a0d9;
-   --text: #b1b1d0;
+   --text: #adadd8;
 }
 
 @font-face {
@@ -42,7 +42,7 @@
 
 body {
    -webkit-font-smoothing: antialiased;
-   font-family: "Lexend", sans-serif;
+   font-family: "Cabinet Grotesk", "Lexend", sans-serif;
    background-color: var(--darkbg);
    position: relative;
 }
@@ -60,7 +60,7 @@ h2 {
 
 h1 {
    font-size: 2.7rem;
-   margin-bottom: 10px;
+   margin-bottom: 8px;
    line-height: 120%;
 }
 
@@ -70,17 +70,20 @@ h2 {
 
 p {
    color: var(--text);
+   font-family: "General Sans", sans-serif;
+   font-weight: 400;
    font-size: 1.15rem;
    line-height: 155%;
    letter-spacing: 0.03rem;
 }
 
 a {
+   display: inline-block;
    text-decoration: none;
 }
 
 .footer p {
-   border-top: 1px solid rgba(255, 255, 255, 0.102);
+   border-top: 1px solid #33374b;
    text-align: center;
    padding: 15px;
    margin: 0px 100px;
@@ -111,9 +114,6 @@ a {
       grid-template-columns: 1fr;
       justify-items: center;
       gap: 45px;
-   }
-   .home-desc {
-      text-align: center;
    }
    .home-img {
       height: auto;
@@ -147,7 +147,7 @@ a {
    .sobre-mim_container {
       flex-direction: column;
       padding: 90px 20px;
-      gap: 25px;
+      gap: 40px;
    }
    #projetos {
       padding: 80px 20px 50px;
@@ -167,21 +167,24 @@ a {
       min-height: 202px;
       max-width: 100%;
    }
+   .skill-cards {
+      gap: 20px;
+   }
    .skill {
       padding: 4px 18px;
+      max-width: 130px;
    }
    #contato {
       padding: 90px 20px;
    }
    #contato p {
-      line-height: 180%;
       font-size: 1.1rem;
    }
    .contato-icons {
       gap: 15px;
    }
    .contato-icons img {
-      width: 50px;
+      width: 45px;
    }
    .footer p {
       margin: 0px 20px;

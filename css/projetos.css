@@ -61,4 +61,5 @@
    padding: 5px 10px;
    background: linear-gradient(var(--headers), #9898be);
    border-radius: 4px;
+   font-weight: bold;
 }
