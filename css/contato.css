@@ -33,7 +33,7 @@
    color: var(--headers);
    padding: 2px 4px;
    transition: all 0.3s ease;
-   border-bottom: 1px solid transparent;
+   border-bottom: 2px solid transparent;
 }
 
 .email::before {
@@ -42,5 +42,5 @@
 }
 
 .email:hover {
-   border-bottom: 1px solid var(--blue);
+   border-bottom: 2px solid var(--blue);
 }
