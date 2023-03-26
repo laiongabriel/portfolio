@@ -35,10 +35,6 @@
    max-width: 75%;
 }
 
-.skill-info {
-   transition: 0.3s;
-}
-
 .skill p {
    font-size: 1rem;
    color: var(--headers);
