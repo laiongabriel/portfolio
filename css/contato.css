@@ -1,5 +1,5 @@
 #contato {
-   padding: 120px 100px 135px;
+   padding: 120px 80px 135px;
    text-align: center;
 }
 
@@ -31,7 +31,7 @@
 
 .email {
    color: var(--headers);
-   padding: 2px 4px;
+   padding: 0px 4px;
    transition: all 0.3s ease;
    border-bottom: 2px solid transparent;
 }

@@ -3,14 +3,13 @@
    grid-template-columns: 1fr 1fr;
    align-items: center;
    gap: 60px;
-   padding: 53px 100px 0px;
+   padding: 53px 80px 0px;
    height: 100vh;
 }
 
 .home-desc h2 {
-   font-family: "Mulish";
-   font-weight: 600;
    color: var(--text);
+   letter-spacing: 0.02em;
 }
 
 .laion {
@@ -26,10 +25,8 @@
 }
 
 .down-arrow_container p {
-   font-family: "Mulish", sans-serif;
-   font-weight: 600;
    font-size: 1.2rem;
-   color: var(--text);
+   color: var(--headers);
    transition: all 0.3s ease;
 }
 

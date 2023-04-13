@@ -1,5 +1,5 @@
 #projetos {
-   padding: 125px 100px 175px;
+   padding: 125px 80px 175px;
 }
 
 .projetos-header {
@@ -57,7 +57,7 @@
 
 .tech {
    color: var(--darkbg);
-   padding: 5px 10px;
+   padding: 4px 8px;
    background: linear-gradient(var(--headers), #9898be);
    border-radius: 4px;
    font-weight: bold;

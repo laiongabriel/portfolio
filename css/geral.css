@@ -35,16 +35,16 @@
    background: #808080;
 }
 
-.layout {
-   max-width: 1366px;
-   margin: 0 auto;
-}
-
 body {
    -webkit-font-smoothing: antialiased;
-   font-family: "Cabinet Grotesk", "Lexend", sans-serif;
+   font-family: "Cabinet Grotesk", sans-serif;
    background-color: var(--darkbg);
    position: relative;
+}
+
+.layout {
+   max-width: 1300px;
+   margin: 0 auto;
 }
 
 img {
@@ -59,18 +59,18 @@ h2 {
 }
 
 h1 {
-   font-size: 2.7rem;
+   font-size: 3rem;
    margin-bottom: 8px;
    line-height: 120%;
 }
 
 h2 {
-   font-size: 1.8rem;
+   font-size: 2rem;
 }
 
 p {
    color: var(--text);
-   font-family: "General Sans", sans-serif;
+   font-family: "Figtree", sans-serif;
    font-weight: 400;
    font-size: 1.15rem;
    line-height: 155%;
@@ -86,7 +86,7 @@ footer p {
    border-top: 1px solid #33374b;
    text-align: center;
    padding: 15px;
-   margin: 0px 100px;
+   margin: 0px 80px;
 }
 
 /* Animação ao Scroll */
