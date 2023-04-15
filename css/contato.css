@@ -8,7 +8,7 @@
 }
 
 #contato p {
-   font-size: 1.2rem;
+   font-size: 1.3rem;
    margin-top: 10px;
 }
 
@@ -31,16 +31,11 @@
 
 .email {
    color: var(--headers);
-   padding: 0px 4px;
    transition: all 0.3s ease;
-   border-bottom: 2px solid transparent;
-}
-
-.email::before {
-   content: "↗";
-   margin-right: 4px;
+   text-decoration: underline;
+   outline: none;
 }
 
 .email:hover {
-   border-bottom: 2px solid var(--blue);
+   color: var(--blue);
 }

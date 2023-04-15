@@ -37,7 +37,7 @@
 
 body {
    -webkit-font-smoothing: antialiased;
-   font-family: "Cabinet Grotesk", sans-serif;
+   font-family: "Figtree", sans-serif;
    background-color: var(--darkbg);
    position: relative;
 }
@@ -56,6 +56,7 @@ img {
 h1,
 h2 {
    color: var(--headers);
+   font-family: "Cabinet Grotesk", sans-serif;
 }
 
 h1 {
@@ -80,6 +81,7 @@ p {
 a {
    display: inline-block;
    text-decoration: none;
+   color: var(--text);
 }
 
 footer p {
@@ -106,8 +108,8 @@ footer p {
       flex-direction: column;
       gap: 40px;
    }
-   .projeto {
-      width: 100%;
+   #projetos {
+      padding: 125px 80px 175px;
    }
 }
 
@@ -125,14 +127,24 @@ footer p {
    .down-arrow_container {
       margin: 20px auto 0px;
    }
+   .projetos-header {
+      margin-bottom: 40px;
+   }
+   .projeto {
+      grid-template-columns: 1fr;
+      gap: 25px;
+   }
+   .projeto-desc {
+      padding-left: 2px;
+   }
 }
 
 @media (max-width: 800px) {
    h1 {
-      font-size: 2rem;
+      font-size: 2.1rem;
    }
    h2 {
-      font-size: 1.4em;
+      font-size: 1.5rem;
    }
    p {
       font-size: 1.0625rem;
@@ -152,10 +164,13 @@ footer p {
       padding: 90px 20px;
    }
    #projetos {
-      padding: 80px 20px 50px;
+      padding: 80px 20px;
    }
-   .projeto-desc {
-      padding-right: 0;
+   .projetos-container {
+      gap: 4rem;
+   }
+   .projeto-links a {
+      font-size: 1rem;
    }
    .skills-container {
       padding: 80px 20px 75px;
