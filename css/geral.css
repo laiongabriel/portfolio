@@ -134,9 +134,6 @@ footer p {
       grid-template-columns: 1fr;
       gap: 25px;
    }
-   .projeto-desc {
-      padding-left: 2px;
-   }
 }
 
 @media (max-width: 800px) {

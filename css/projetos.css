@@ -26,14 +26,11 @@
 
 .projeto-img img {
    border-radius: 4px;
+   outline: 2px solid rgba(45, 53, 82, 0.5);
 }
 
 .projeto-img {
    border-radius: 4px;
-}
-
-.projeto:last-child .projeto-img {
-   outline: 2px solid rgba(45, 53, 82, 0.5);
 }
 
 .projeto-desc {
