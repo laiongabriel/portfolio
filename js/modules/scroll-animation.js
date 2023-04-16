@@ -1,7 +1,6 @@
 export default function initScrollAnimation() {
    const sections = document.querySelectorAll(".js-scroll");
    const halfWindowHeight = window.innerHeight * 0.6;
-   const contactSectionHeight = window.innerHeight * 0.8;
 
    if (sections.length) {
       animateSections();
@@ -15,10 +14,7 @@ export default function initScrollAnimation() {
          const offset = section.offsetTop;
          return {
             element: section,
-            offset:
-               // gabiarra kk
-               Math.floor(offset) -
-               (sections[5] ? contactSectionHeight : halfWindowHeight),
+            offset: Math.floor(offset) - halfWindowHeight,
          };
       });
 
