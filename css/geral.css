@@ -106,7 +106,7 @@ footer p {
 @media (max-width: 1200px) {
    .sobre-mim_container {
       flex-direction: column;
-      gap: 40px;
+      gap: 55px;
    }
    #projetos {
       padding: 125px 80px 175px;
@@ -119,6 +119,9 @@ footer p {
       grid-template-columns: 1fr;
       justify-items: center;
       gap: 45px;
+   }
+   .home-desc {
+      text-align: center;
    }
    .home-img {
       height: auto;
