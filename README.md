@@ -1,11 +1,11 @@
-# Portfólio
+# Laion's portfolio
 
-Portfólio pessoal com um design minimalista desenvolvido com HTML, CSS e JavaScript. O objetivo do site é apresentar minhas habilidades e projetos de forma clara e intuitiva.
+Personal portfolio with a minimalist design developed with HTML, CSS, and JavaScript. The goal of the website is to showcase my skills and projects in a clear and intuitive manner.
 
-## Preview
+## Preview 🔍
 
 ![Preview](./img/preview.png)
 
-Você pode conferir o site clicando [aqui](https://laiongabriel.github.io/portfolio/).
+You can check out the website by clicking [here](https://laiongabriel.github.io/portfolio/).
 
-Se você tiver alguma dúvida ou sugestão, fique à vontade para entrar em contato comigo!
+If you have any questions or suggestions, feel free to contact me!
