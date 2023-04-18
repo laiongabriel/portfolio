@@ -53,12 +53,13 @@
    color: var(--headers);
    font-size: 1.1rem;
    padding: 8px 16px;
-   border: 2px solid rgba(45, 53, 82, 0.5);
+   border: 2px solid rgba(39, 46, 71, 0.5);
    background-color: var(--lightbg);
    border-radius: 4px;
    transition: 0.2s all;
 }
 
 .projeto-links a:hover {
-   background-color: #2e3652;
+   background-color: #293049;
+   border-color: rgba(60, 71, 114, 0.5);
 }
