@@ -1,0 +1,204 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+:root {
+   --headers: #d3d3ff;
+   --darkbg: #161a27;
+   --lightbg: #1b1f30;
+   --blue: #90a0d9;
+   --text: #adadd8;
+}
+
+@font-face {
+   font-family: "Consolas";
+   src: url("../fonts/consolas/consola.ttf");
+   font-display: swap;
+}
+
+::-webkit-scrollbar {
+   width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+   background: var(--headers);
+   border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: #808080;
+}
+
+body {
+   -webkit-font-smoothing: antialiased;
+   font-family: "Figtree", sans-serif;
+   background-color: var(--darkbg);
+   position: relative;
+}
+
+.layout {
+   max-width: 1300px;
+   margin: 0 auto;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+h1,
+h2 {
+   color: var(--headers);
+   font-family: "Cabinet Grotesk", sans-serif;
+}
+
+h1 {
+   font-size: 3rem;
+   margin-bottom: 8px;
+   line-height: 120%;
+}
+
+h2 {
+   font-size: 2rem;
+}
+
+p {
+   color: var(--text);
+   font-family: "Figtree", sans-serif;
+   font-weight: 400;
+   font-size: 1.15rem;
+   line-height: 155%;
+   letter-spacing: 0.03rem;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+   color: var(--text);
+}
+
+footer p {
+   border-top: 1px solid #33374b;
+   text-align: center;
+   padding: 15px;
+   margin: 0px 80px;
+}
+
+/* Animação ao Scroll */
+.js-scroll {
+   opacity: 0;
+   transform: translateX(-30px);
+   transition: 1s;
+}
+
+.js-scroll.ativo {
+   opacity: 1;
+   transform: translateX(0);
+}
+
+@media (max-width: 1200px) {
+   .sobre-mim_container {
+      flex-direction: column;
+      gap: 55px;
+   }
+   #projetos {
+      padding: 125px 80px 175px;
+   }
+}
+
+@media (max-width: 980px) {
+   #home {
+      padding: 95px 15px 60px;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      gap: 45px;
+   }
+   .home-desc {
+      text-align: center;
+   }
+   .home-img {
+      height: auto;
+      width: 400px;
+   }
+   .down-arrow_container {
+      margin: 20px auto 0px;
+   }
+   .projetos-header {
+      margin-bottom: 40px;
+   }
+   .projeto {
+      grid-template-columns: 1fr;
+      gap: 25px;
+   }
+}
+
+@media (max-width: 800px) {
+   h1 {
+      font-size: 2.1rem;
+   }
+   h2 {
+      font-size: 1.5rem;
+   }
+   p {
+      font-size: 1.0625rem;
+   }
+   #home {
+      padding: 90px 15px 60px;
+      height: auto;
+   }
+   .home-img {
+      width: 360px;
+   }
+   .down-arrow_container p {
+      font-size: 1.1rem;
+   }
+   .sobre-mim_container {
+      flex-direction: column;
+      padding: 90px 20px;
+   }
+   #projetos {
+      padding: 80px 20px;
+   }
+   .projetos-container {
+      gap: 4rem;
+   }
+   .projeto-links a {
+      font-size: 1rem;
+   }
+   .skills-container {
+      padding: 80px 20px 75px;
+      text-align: center;
+      gap: 15px;
+   }
+   .skills-desc {
+      min-height: 202px;
+      max-width: 100%;
+   }
+   .skill-cards {
+      gap: 20px;
+   }
+   .skill {
+      padding: 4px 18px;
+      max-width: 130px;
+   }
+   #contato {
+      padding: 90px 20px;
+   }
+   #contato p {
+      font-size: 1.1rem;
+   }
+   .contato-icons {
+      gap: 15px;
+   }
+   .contato-icons img {
+      width: 45px;
+   }
+   footer p {
+      margin: 0px 20px;
+      padding: 15px;
+      font-size: 1rem;
+   }
+}

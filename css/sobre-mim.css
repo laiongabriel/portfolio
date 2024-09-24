@@ -1,0 +1,15 @@
+#sobre-mim {
+   background-color: var(--lightbg);
+}
+
+.sobre-mim_container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 140px;
+   padding: 135px 80px;
+}
+
+.sobre-mim_container img {
+   border-radius: 50%;
+}

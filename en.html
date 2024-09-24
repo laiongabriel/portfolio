@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Portfolio - Laion Gabriel</title>
+   <meta name="author" content="Laion Gabriel">
+   <meta name="copyright" content="© 2024 Laion Gabriel">
+   <meta property="og:image" content="https://laiongabriel.github.io/portfolio/img/og-preview.png">
+   <meta http-equiv="content-language" content="en-us">
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+   <meta name="description"
+      content="Minimalistic portfolio where I showcase my works and projects. Feel free to contact me!">
+   <meta name="keywords"
+      content="web developer, desenvolvedor frontend, frontend, laion gabriel, programador, laiongabriel, front-end, ui, laion, freelancer, website, portfólio">
+   <link rel="shortcut icon" href="./img/icons/fav-icon.svg" type="image/x-icon">
+
+   <link href="https://fonts.cdnfonts.com/css/cabinet-grotesk" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header class="js-scroll">
+      <section class="site-header layout">
+         <div class="logo">
+            <a href="#home">laionGabriel<span class="ltgt">();</span></a>
+         </div>
+         <nav>
+            <ul class="menu">
+               <li><a href="#sobre-mim">About me</a></li>
+               <li><a href="#projetos">Projects</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#contato">Contact</a></li>
+               <li>
+                  <a href="./index.html">
+                     pt/<span style="color: #fff; font-weight: bold">en</span>
+                  </a>
+               </li>
+            </ul>
+            <button type="button" title="menu" id="btn-mobile">
+               <span id="burger"></span>
+            </button>
+         </nav>
+      </section>
+   </header>
+
+   <main>
+      <section id="home" class="js-scroll layout">
+         <div class="home-desc">
+            <h1>Hello there, I'm <span class="laion">Laion</span>.</h1>
+            <h2>Front-end Developer.</h2>
+            <a href="#sobre-mim" class="down-arrow_container">
+               <p>See more!</p>
+               <img class="down-arrow" src="./img/icons/down-arrow.svg" alt="seta para baixo" width="32" height="32">
+            </a>
+         </div>
+         <img class="home-img" src="./img/home-img.svg" alt="ilustração de um programador" width="528" height="403.39">
+      </section>
+
+      <section id="sobre-mim" class="js-scroll">
+         <div class="sobre-mim_container layout">
+            <div class="sobre-mim_desc">
+               <h1>About me</h1>
+               <p>Hi! My name is Laion, I'm a Front-End developer and Information Systems student at UFRA.
+                  I have solid knowledge of HTML, CSS, JavaScript, and TypeScript, and I'm specializing in the React
+                  library. I'm looking for an internship opportunity to apply my skills in real projects while
+                  continuing to grow as a developer. I enjoy creating clear and functional interfaces, always focusing
+                  on the user experience. Feel free to reach out!</p>
+            </div>
+            <img src="./img/me.jpg" alt="autorretrato" width="420" height="420">
+         </div>
+      </section>
+
+      <section id="projetos" class="js-scroll layout">
+         <div class="projetos-header">
+            <h1>Projects</h1>
+            <p>Projects I've developed by applying my front-end skills.</p>
+         </div>
+         <div class="projetos-container">
+
+            <div class="projeto">
+               <div class="projeto-img">
+                  <img src="./img/project-preview/shelfspace-preview.png">
+               </div>
+               <div class="projeto-desc">
+                  <h2>ShelfSpace</h2>
+                  <p>ShelfSpace is a virtual bookshelf developed with React. It leverages the Google Books API and the
+                     Wikipedia API to retrieve information about the books and their authors.</p>
+                  <div class="projeto-links">
+                     <a href="https://shelf-space.netlify.app/" target="_blank" class="demo">
+                        <img src="./img/icons/link.svg">
+                        View demo</a>
+                     <a href="https://github.com/laiongabriel/shelfspace" target="_blank" class="rep">
+                        <img src="./img/icons/github.svg" width="24" height="24">
+                        Repository</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="projeto">
+               <div class="projeto-img">
+                  <img src="./img/project-preview/ai-preview.png">
+               </div>
+               <div class="projeto-desc">
+                  <h2>AI Chatbot</h2>
+                  <p>Chatbot that uses OpenAI's gpt-3.5-turbo language model to generate responses based on user input.
+                     It was developed with JavaScript using the Express.js framework for the backend.</p>
+                  <div class="projeto-links">
+                     <a href="https://ai-powered-chatbot.netlify.app/" target="_blank" class="demo">
+                        <img src="./img/icons/link.svg">
+                        View demo</a>
+                     <a href="https://github.com/laiongabriel/ai-chatbot" target="_blank" class="rep">
+                        <img src="./img/icons/github.svg" width="24" height="24">
+                        Repository</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="projeto">
+               <div class="projeto-img">
+                  <img src="./img/project-preview/bikcraft-preview.png">
+               </div>
+               <div class="projeto-desc">
+                  <h2>Bikcraft</h2>
+                  <p>Fictional company that develops custom bicycles for its customers. Project developed during the
+                     HTML and CSS course by Origamid.</p>
+                  <div class="projeto-links">
+                     <a href="https://laiongabriel.github.io/bikcraft/" target="_blank" class="demo">
+                        <img src="./img/icons/link.svg">
+                        View demo
+                     </a>
+                     <a href="https://github.com/laiongabriel/bikcraft" target="_blank" class="rep">
+                        <img src="./img/icons/github.svg" width="24" height="24">
+                        Repository</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="projeto">
+               <div class="projeto-img">
+                  <img src="./img/project-preview/dogs.png">
+               </div>
+               <div class="projeto-desc">
+                  <h2>Dogs</h2>
+                  <p>Fictitious social media for dogs. Uses a REST API to implement a login and account system, as well
+                     as the Victory library to create charts based on user statistics. Developed during the React course
+                     by Origamid.</p>
+                  <div class="projeto-links">
+                     <a href="https://amazingdogs.netlify.app/" target="_blank" class="demo">
+                        <img src="./img/icons/link.svg">
+                        View demo
+                     </a>
+                     <a href="https://github.com/laiongabriel/dogs" target="_blank" class="rep">
+                        <img src="./img/icons/github.svg" width="24" height="24">
+                        Repository</a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="projeto">
+               <div class="projeto-img">
+                  <img src="./img/project-preview/sans-preview.png">
+               </div>
+               <div class="projeto-desc">
+                  <h2>Sans Bot</h2>
+                  <p>Sans is a funny Discord bot that integrates various different APIs to create functionalities and
+                     interact with users. It was developed with JavaScript using the discord.js library.</p>
+                  <div class="projeto-links">
+                     <a href="https://github.com/laiongabriel/sans-bot" target="_blank" class="rep">
+                        <img src="./img/icons/github.svg" width="24" height="24">
+                        Repository</a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <section id="skills" class="js-scroll">
+         <div class="skills-container layout">
+            <div class="skills-desc">
+               <h1>Skills</h1>
+               <p class="skill-info" data-mobile="Tap on one of the cards to read :)">Hover over one of the cards to
+                  read
+                  :)</p>
+            </div>
+            <div class="skill-cards">
+               <div class="skill"
+                  data-description="HTML (HyperText Markup Language) is a markup language used to create and structure web content, including text, images, videos, and interactive elements.">
+                  <img src="./img/icons/html.svg" alt="ícone html" width="100" height="100">
+                  <p>HTML</p>
+               </div>
+               <div class="skill"
+                  data-description="CSS (Cascading Style Sheets) is a style language used to define the presentation and appearance of web content, including colors, fonts, layout, and other visual aspects.">
+                  <img src="./img/icons/css.svg" alt="ícone css" width="100" height="100">
+                  <p>CSS</p>
+               </div>
+               <div class="skill"
+                  data-description="JavaScript is a widely used programming language for web development, bringing interactivity and dynamism to websites and applications.">
+                  <img src="./img/icons/js.svg" alt="ícone javascript" width="100" height="100">
+                  <p>JavaScript</p>
+               </div>
+               <div class="skill"
+                  data-description="TypeScript is a programming language that extends JavaScript by adding static typing features, making it easier to maintain in large projects.">
+                  <img src="./img/icons/typescript.svg" alt="ícone typescript" width="100" height="100">
+                  <p>TypeScript</p>
+               </div>
+               <div class="skill"
+                  data-description="React is a JavaScript library used for building interactive and scalable user interfaces, with reusable components and a declarative approach.">
+                  <img src="./img/icons/react.svg" alt="ícone react" width="100" height="100">
+                  <p>React</p>
+               </div>
+               <div class="skill"
+                  data-description="WordPress is a Content Management System (CMS), based on PHP and MySQL, used for creating and managing websites and blogs in an intuitive and customizable way.">
+                  <img src="./img/icons/wordpress.svg" alt="ícone wordpress" width="100" height="100">
+                  <p>WordPress</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="contato" class="layout js-scroll">
+         <h1>Get in touch!</h1>
+         <p>Interested? Email me at <a href="mailto:laiong.dev@gmail.com" class="email">laiong.dev@gmail.com</a><br>or
+            connect with me on other platforms:
+         </p>
+         <div class="contato-icons">
+            <a href="https://www.linkedin.com/in/laiongabriel/" target="_blank">
+               <img src="./img/icons/linkedin.svg" alt="ícone linkedin" width="60" height="60">
+            </a>
+            <a href="https://www.instagram.com/laionxz/" target="_blank">
+               <img src="./img/icons/instagram.svg" alt="ícone instagram" width="60" height="60">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5591988896676" target="_blank">
+               <img src="./img/icons/whatsapp.svg" alt="ícone whatsapp" width="60" height="60">
+            </a>
+            <a href="https://github.com/laiongabriel" target="_blank">
+               <img src="./img/icons/github.svg" alt="ícone github" width="60" height="60">
+            </a>
+         </div>
+      </section>
+
+      <footer class="layout">
+         <p>&#169; 2024 Laion Gabriel</p>
+      </footer>
+   </main>
+
+   <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

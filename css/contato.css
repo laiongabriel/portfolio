@@ -1,0 +1,42 @@
+#contato {
+   padding: 120px 80px 135px;
+   text-align: center;
+}
+
+#contato h1 {
+   margin-bottom: 15px;
+}
+
+#contato p {
+   line-height: 165%;
+   font-size: 1.3rem;
+   margin-top: 10px;
+}
+
+.contato-icons {
+   display: flex;
+   flex-wrap: nowrap;
+   margin-top: 30px;
+   justify-content: center;
+   align-items: center;
+   gap: 22px;
+}
+
+.contato-icons img {
+   transition: transform 0.2s ease;
+}
+
+.contato-icons img:hover {
+   transform: scale(1.15);
+}
+
+.email {
+   color: var(--headers);
+   transition: all 0.3s ease;
+   text-decoration: underline;
+   outline: none;
+}
+
+.email:hover {
+   color: var(--blue);
+}

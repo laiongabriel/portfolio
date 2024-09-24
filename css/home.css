@@ -1,0 +1,56 @@
+#home {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   gap: 60px;
+   padding: 53px 80px 0px;
+   height: 100vh;
+}
+
+.home-desc h2 {
+   color: var(--text);
+   letter-spacing: 0.02em;
+}
+
+.laion {
+   color: var(--blue);
+}
+
+.down-arrow_container {
+   display: flex;
+   align-items: center;
+   gap: 4px;
+   margin-top: 60px;
+   width: fit-content;
+}
+
+.down-arrow_container p {
+   font-size: 1.2rem;
+   color: var(--text);
+   transition: all 0.3s ease;
+}
+
+.down-arrow_container p:hover {
+   color: var(--blue);
+}
+
+.down-arrow {
+   animation: jumpInfinite 2s infinite;
+}
+
+@keyframes jumpInfinite {
+   0% {
+      opacity: 0;
+      transform: translate3d(0, -15px, 0);
+   }
+   30% {
+      opacity: 0;
+   }
+   60% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+      transform: translate3d(0, 10px, 0);
+   }
+}
